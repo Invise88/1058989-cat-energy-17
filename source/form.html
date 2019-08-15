@@ -11,20 +11,20 @@
 
   <header class="page-header">
     <a class="page-header__logo logo">
-      <img class="logo__image" src="img/logotype-mobile.svg" width="191" height="39" alt="Cat energy">
+      <img class="logo__image" src="img/logo-mobile.svg" width="191" height="39" alt="Cat energy">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">Открыть меню</button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a href="index.html">Главная</a>
+            <a class="site-list__link" href="index.html">Главная</a>
           </li>
           <li class="site-list__item">
-            <a href="catalog.html">Каталог продукции</a>
+            <a class="site-list__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="site-list__item site-list__item--active">
-            <a>Подбор программы</a>
+            <a class="site-list__link">Подбор программы</a>
           </li>
         </ul>
       </div>
@@ -36,16 +36,16 @@
     <form class="form" action="https://echo.htmlacademy.ru">
       <fieldset class="form__fieldset">
         <div class="input-text">
-          <input class="input-text__input" name="name" type="text" placeholder="Барсик" id="name">
           <label for="name" class="input-text__label">Имя:*</label>
+          <input class="input-text__input" name="name" type="text" placeholder="Барсик" id="name">
         </div>
         <div class="input_text">
-          <input class="input-text__input" name="weight" type="text" placeholder="7" id="weight">
           <label for="weight" class="input-text__label">Вес (кг):*</label>
+          <input class="input-text__input" name="weight" type="text" placeholder="7" id="weight">
         </div>
         <div class="input-text">
-          <input class="input-text__input" name="age" type="text" placeholder="7" id="age">
           <label for="age" class="input-text__label">Возраст (лет):</label>
+          <input class="input-text__input" name="age" type="text" placeholder="7" id="age">
         </div>
       </fieldset>
       <fieldset class="form__fieldset">
@@ -65,12 +65,12 @@
       <fieldset class="form__fieldset">
         <legend class="form__fieldset-title">Контактные данные(владельца кота)</legend>
         <div class="input-text">
-          <input class="input-text__input" name="email" type="text" id="email" placeholder="kuklachev@gmail.com">
           <label for="email" class="input-text__label">E-mail:*</label>
+          <input class="input-text__input" name="email" type="text" id="email" placeholder="kuklachev@gmail.com">
         </div>
         <div class="input-text">
-          <input class="input-text__input" name="phone" type="text" id="phone" placeholder="8 (960) 900-60-90">
           <label for="phone" class="input-text__label">Телефон:*</label>
+          <input class="input-text__input" name="phone" type="text" id="phone" placeholder="8 (960) 900-60-90">
         </div>
       </fieldset>
       <fieldset class="form__fieldset">
@@ -107,7 +107,9 @@
         <p class="contacts__text">ул. Большая<br> Конюшенная, д. 19/8<br>
           Санкт-Петербург</p>
       </div>
-      <!--    map-->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003151!2d30.32085871621117!3d59.9387191690541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1565439496739!5m2!1sru!2sru"
+        width="100%" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
   </main>
 
@@ -130,7 +132,7 @@
     </div>
     <div class="page-footer__copyright copyright">
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-      <img class="copyright__image" src="http://placehold.it/150x100" alt="HTML Academy">
+      <img class="copyright__image" src="img/htmlacademy.svg" width="27" height="34" alt="HTML Academy">
     </div>
   </footer>
 </body>

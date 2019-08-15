@@ -1,0 +1,24 @@
+.catalog__item {
+  list-style: none;
+}
+
+.catalog__item-link {
+  display: block;
+  text-decoration: none;
+}
+
+.catalog__item-title {
+  color: $title-color;
+}
+.catalog__item-info{
+  color: $grey-color;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.catalog__item-info th{
+  font-weight: 400;
+}
+.catalog__item-button{
+  text-decoration: none;
+}
