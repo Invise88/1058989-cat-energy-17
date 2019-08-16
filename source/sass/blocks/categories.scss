@@ -1,9 +1,12 @@
-.categories__item{
+.categories__item {
   background-color: $background-grey;
 }
+
 .categories__title {
   position: relative;
   color: $title-color;
+  font-size: 24px;
+  line-height: 37px;
 
   &::after,
   &::before {
