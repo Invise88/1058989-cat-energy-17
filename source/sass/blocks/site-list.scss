@@ -1,0 +1,18 @@
+.site-list {
+  list-style: none;
+}
+
+.site-list__link {
+  color: $title-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.site-list__item {
+  color: $title-color;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "Oswald", "Arial", sans-serif;
+}
