@@ -1,6 +1,7 @@
-.example{
+.example {
   background-color: $background-grey;
 }
+
 .example__description {
   color: $grey-color;
 }
@@ -18,12 +19,14 @@
   font-size: 12px;
   line-height: 12px;
 }
-.example__subtitle{
-  color:$title-color;
+
+.example__subtitle {
+  color: $title-color;
   font-size: 14px;
   line-height: 20px;
   font-family: "Oswald", "Arial", sans-serif;
 }
-.example__control{
+
+.example__control {
   font-family: "Oswald", "Arial", sans-serif;
 }

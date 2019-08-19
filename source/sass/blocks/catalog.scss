@@ -11,16 +11,18 @@
   color: $title-color;
   font-family: "Oswald", "Arial", sans-serif;
 }
-.catalog__item-info{
+
+.catalog__item-info {
   color: $grey-color;
   font-size: 12px;
   line-height: 16px;
 }
 
-.catalog__item-info th{
+.catalog__item-info th {
   font-weight: 400;
 }
-.catalog__item-button{
+
+.catalog__item-button {
   text-decoration: none;
   font-family: "Oswald", "Arial", sans-serif;
 }
