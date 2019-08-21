@@ -1,0 +1,52 @@
+.additional-products__item-button {
+  text-decoration: none;
+  font-family: "Oswald", "Arial", sans-serif;
+}
+
+.additional-products__title {
+  color: $title-color;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Oswald", "Arial", sans-serif;
+}
+
+.additional-products__item {
+  list-style: none;
+}
+
+.additional-products__item-subtitle {
+  color: #222222;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+}
+
+.additional-products__item-table {
+  color: $grey-color;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.additional-products__banner {
+  background-image: url("../../img/gift-photo-mobile@1x.jpg");
+  background-color: green;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 289px;
+}
+
+.additional-products__banner-title {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+
+  &::before {
+    content: "";
+    background-image: url("../../img/icon-gift.svg");
+    width: 56px;
+    height: 61px;
+    display: block;
+  }
+}

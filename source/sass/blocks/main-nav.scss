@@ -1,0 +1,8 @@
+.main-nav {
+  margin: 0;
+}
+@media(min-width: $tablet-width){
+  .main-nav__wrapper{
+    display: flex;
+  }
+}

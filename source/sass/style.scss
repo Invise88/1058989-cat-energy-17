@@ -1,3 +1,4 @@
+@import "../../node_modules/normalize.css/normalize";
 @import "variables.scss";
 @import "scaffolding.scss";
 @import "blocks/page-header.scss";
@@ -23,3 +24,4 @@
 @import "blocks/radio.scss";
 @import "blocks/checkbox.scss";
 @import "blocks/copyright.scss";
+@import "blocks/page-inner.scss";
