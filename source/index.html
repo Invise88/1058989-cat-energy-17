@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Cat energy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" <title>Cat energy</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -40,7 +40,7 @@
   </header>
 
   <main class="page-main">
-    <section class="categories">
+    <section class="categories container">
       <h2 class="visually-hidden">Категории товаров</h2>
       <article class="categories__item">
         <h3 class="categories__title categories__title--slim">Похудение</h3>
@@ -55,17 +55,15 @@
         <a class="categories__button" href="#">Каталог pro</a>
       </article>
     </section>
-    <section class="advantages">
+    <section class="advantages container">
       <h2 class="heading">Как это работает</h2>
       <ul class="advantages__items">
-        <div class="advantages__wrapper">
-          <li class="advantages__item advantages__item--leaf">Функциональное питание содержит только полезные питательные
-            вещества.
-          </li>
-          <li class="advantages__item advantages__item--powder">Выпускается в виде порошка, который нужно лишь залить
-            кипятком и готово.
-          </li>
-        </div>
+        <li class="advantages__item advantages__item--leaf">Функциональное питание содержит только полезные питательные
+          вещества.
+        </li>
+        <li class="advantages__item advantages__item--powder">Выпускается в виде порошка, который нужно лишь залить
+          кипятком и готово.
+        </li>
         <li class="advantages__item advantages__item--dining">Замените один-два приема обычной еды на наше функциональное
           питание.
         </li>
@@ -97,14 +95,16 @@
       </div>
     </section>
     <section class="map">
-      <address class="contacts">
-        <b class="contacts__title">приглашаем к сотрудничеству дилеров!</b>
-        <p class="contacts__text">ул. Большая<br> Конюшенная, д. 19/8<br>
-          Санкт-Петербург</p>
+      <address class="contacts container">
+        <div class="contacts-wrapper">
+          <b class="contacts__title">приглашаем к сотрудничеству дилеров!</b>
+          <p class="contacts__text">ул. Большая<br> Конюшенная, д. 19/8<br>
+            Санкт-Петербург</p>
+        </div>
       </address>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003151!2d30.32085871621117!3d59.9387191690541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1565439496739!5m2!1sru!2sru"
-        height="360" style="border:0" allowfullscreen></iframe>
+        height="360" width="100%" style="border:0" allowfullscreen></iframe>
     </section>
   </main>
   <footer class="page-footer">

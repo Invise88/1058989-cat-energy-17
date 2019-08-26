@@ -3,6 +3,13 @@
   display: flex;
 }
 
+.social__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 .social__link {
   color: $grey-color;
   margin-bottom: 32px;
@@ -36,5 +43,10 @@
       width: 10px;
       height: 19px;
     }
+  }
+}
+@media(min-width: $tablet-width){
+  .social__list{
+    width: 200px;
   }
 }

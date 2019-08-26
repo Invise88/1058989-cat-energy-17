@@ -23,16 +23,22 @@
   line-height: 14px;
   text-align: center;
 }
-
-@media(min-width: $tablet-width){
-  .promo{
+@media(min-width: $tablet-width) {
+  .promo {
     background-image: none;
     background-color: #ffffff;
   }
-  .promo__title{
+
+  .promo__title {
     color: $title-color;
   }
-  .promo__slogan{
+
+  .promo__slogan {
     color: $title-color;
+  }
+
+  .promo__image {
+    display: flex;
+    margin: 0 auto;
   }
 }

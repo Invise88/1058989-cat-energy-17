@@ -8,6 +8,7 @@ body {
   font-style: normal;
   background-color: #ffffff;
   box-sizing: border-box;
+  counter-reset: section;
 }
 
 img {
@@ -26,4 +27,19 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container {
+  width: 320px;
+  max-width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @media(min-width: $tablet-width){
+    width: 768px;
+    padding: 0 30px;
+  }
+  @media(min-width: $desktop-width){
+    width: 100%;
+  }
 }

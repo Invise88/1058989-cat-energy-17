@@ -18,3 +18,14 @@
   line-height: 16px;
   font-family: "Arial", "Oswald", sans-serif;
 }
+@media(min-width: $tablet-width) {}
+@media(min-width: $desktop-width) {
+  .form-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .form__fieldset-wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+}
