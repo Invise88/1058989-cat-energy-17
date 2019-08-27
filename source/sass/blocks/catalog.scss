@@ -15,12 +15,21 @@
 .catalog__item-title {
   color: $title-color;
   font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-right: 10px;
 }
 
 .catalog__item-info {
   color: $grey-color;
   font-size: 12px;
   line-height: 16px;
+}
+
+.catalog__item-inner {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .catalog__item-info th {
