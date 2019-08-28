@@ -9,16 +9,17 @@
   font-size: 24px;
   line-height: 24px;
   font-family: "Oswald", "Arial", sans-serif;
+  display: flex;
 
   &::after {
     content: "";
-    display: block;
+    flex-grow: 1;
+    min-width: 20px;
     height: 3px;
+    margin-left: 22px;
+    margin-top: 14px;
     background-color: #68b738;
-    width: 75px;
-    position: absolute;
-    left: 301px;
-    top: 15px;
+
   }
 }
 

@@ -30,3 +30,9 @@
     line-height: 20px;
   }
 }
+
+@media(min-width: $desktop-width){
+  .input-text{
+    width: 500px;
+  }
+}
