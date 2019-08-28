@@ -10,6 +10,20 @@
   color: $title-color;
   font-size: 24px;
   line-height: 24px;
+  display: flex;
+  width: 100%;
+
+  &::after {
+    display: block;
+    content: "";
+    flex-grow: 1;
+    min-width: 20px;
+    height: 3px;
+    margin-right: -20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    background-color: #68b738;
+  }
 }
 
 .form__actions-text {
@@ -18,13 +32,23 @@
   line-height: 16px;
   font-family: "Arial", "Oswald", sans-serif;
 }
+
+.form__textarea {
+  width: 100%;
+  min-height: 150px;
+
+  &::placeholder {
+    text-transform: uppercase;
+  }
+}
 @media(min-width: $tablet-width) {}
 @media(min-width: $desktop-width) {
   .form-wrapper {
     display: flex;
     justify-content: space-around;
   }
-  .form__fieldset-wrapper{
+
+  .form__fieldset-wrapper {
     display: flex;
     justify-content: space-around;
   }
