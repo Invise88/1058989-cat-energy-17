@@ -4,6 +4,8 @@
 
 .form__fieldset {
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .form__fieldset-title {
@@ -80,12 +82,12 @@
 @media(min-width: $desktop-width) {
   .form-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .form__fieldset-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: inherit;
 
     &--add {
