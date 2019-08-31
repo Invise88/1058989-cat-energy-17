@@ -31,10 +31,19 @@
 
   .promo__title {
     color: $title-color;
+    width: 415px;
+    margin: 0 0 41px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
   }
 
   .promo__slogan {
     color: $title-color;
+    margin: 0 0 44px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
   }
 
   .promo__image {
@@ -46,6 +55,7 @@
   .promo {
     position: relative;
     z-index: -2;
+    padding: 104px 40px 190px 117px;
 
     &::before {
       content: "";

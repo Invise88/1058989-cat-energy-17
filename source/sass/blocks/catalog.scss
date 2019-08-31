@@ -56,3 +56,8 @@
     }
   }
 }
+@media(min-width: $desktop-width){
+  .catalog__item{
+    width: 245px;
+  }
+}

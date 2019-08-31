@@ -87,8 +87,15 @@
     display: flex;
     justify-content: space-around;
     flex-direction: inherit;
-    &--add{
+
+    &--add {
       flex-wrap: nowrap;
+    }
+  }
+
+  .form__fieldset {
+    &--border {
+      height: 177px;
     }
   }
 }
