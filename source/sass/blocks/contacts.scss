@@ -26,7 +26,8 @@
 .contacts-form {
   background-color: #f2f2f2;
 }
-@media(min-width: $tablet-width) {
+
+@media (min-width: $tablet-width) {
   .contacts {
     position: relative;
   }

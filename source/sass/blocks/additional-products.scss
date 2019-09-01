@@ -19,7 +19,6 @@
     margin-left: 22px;
     margin-top: 14px;
     background-color: #68b738;
-
   }
 }
 
@@ -63,13 +62,15 @@
     display: block;
   }
 }
-@media(min-width: $tablet-width) {
+
+@media (min-width: $tablet-width) {
   .additional-products__banner {
     width: 100%;
     background-size: cover;
   }
 }
-@media(min-width: $tablet-width) {
+
+@media (min-width: $tablet-width) {
   .additional-products {
     display: flex;
   }

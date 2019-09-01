@@ -24,16 +24,17 @@
     text-transform: uppercase;
   }
 }
-@media(min-width: $tablet-width) {
+
+@media (min-width: $tablet-width) {
   .input-text__label {
     font-size: 20px;
     line-height: 20px;
   }
 }
 
-@media(min-width: $desktop-width){
-  .input-text{
-    &:last-child{
+@media (min-width: $desktop-width) {
+  .input-text {
+    &:last-child {
       margin-bottom: 0;
     }
     width: 500px;

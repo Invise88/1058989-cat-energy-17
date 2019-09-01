@@ -1,16 +1,18 @@
 .main-nav {
   position: relative;
 }
-.main-nav__toggle{
+
+.main-nav__toggle {
   position: absolute;
   right: 20px;
   top: -60px;
 }
 
-@media(min-width: $tablet-width) {
-  .main-nav{
+@media (min-width: $tablet-width) {
+  .main-nav {
     flex-grow: 1;
   }
+
   .main-nav__wrapper {
     display: flex;
   }

@@ -3,16 +3,13 @@
   text-align: center;
 }
 
-.page-footer__social {
-
-}
-
 .page-footer__copyright {
   display: flex;
   justify-content: space-between;
 }
-@media(min-width: $tablet-width){
-  .page-footer{
+
+@media (min-width: $tablet-width) {
+  .page-footer {
     display: flex;
     justify-content: space-between;
   }

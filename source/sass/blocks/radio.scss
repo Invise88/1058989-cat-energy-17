@@ -9,13 +9,15 @@
   line-height: 18px;
   padding-left: 46px;
 }
-@media(min-width: $tablet-width) {
+
+@media (min-width: $tablet-width) {
   .radio__label {
     font-size: 20px;
     line-height: 20px;
   }
 }
-@media(min-width: $desktop-width) {
+
+@media (min-width: $desktop-width) {
   .radio__label {
     font-size: 20px;
     line-height: 20px;

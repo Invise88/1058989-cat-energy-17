@@ -40,7 +40,8 @@
     }
   }
 }
-@media(min-width: $tablet-width) {
+
+@media (min-width: $tablet-width) {
   .advantages__items {
     display: flex;
     justify-content: space-between;
@@ -66,9 +67,9 @@
     }
   }
 }
- @media(min-width: $desktop-width){
-   .advantages__items{
-     flex-wrap: nowrap;
-   }
 
- }
+@media (min-width: $desktop-width) {
+  .advantages__items {
+    flex-wrap: nowrap;
+  }
+}

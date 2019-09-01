@@ -5,6 +5,7 @@
   align-items: center;
   box-sizing: border-box;
 }
+
 @media (min-width: $tablet-width) {
   .page-header {
     padding: 0 30px;
@@ -22,6 +23,7 @@
     padding: 0;
   }
 }
+
 @media (min-width: $desktop-width) {
   .page-header__wrapper {
     width: $desktop-width;

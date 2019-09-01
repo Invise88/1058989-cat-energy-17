@@ -23,7 +23,8 @@
   line-height: 14px;
   text-align: center;
 }
-@media(min-width: $tablet-width) {
+
+@media (min-width: $tablet-width) {
   .promo {
     background-image: none;
     background-color: #ffffff;
@@ -51,7 +52,8 @@
     margin: 0 auto;
   }
 }
-@media(min-width: $desktop-width) {
+
+@media (min-width: $desktop-width) {
   .promo {
     position: relative;
     z-index: -2;

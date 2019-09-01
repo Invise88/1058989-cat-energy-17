@@ -42,7 +42,8 @@
     text-transform: uppercase;
   }
 }
-@media(min-width: $tablet-width) {
+
+@media (min-width: $tablet-width) {
   .form__fieldset--border {
     border: 1px solid #ededed;
   }
@@ -79,7 +80,8 @@
     justify-content: space-around;
   }
 }
-@media(min-width: $desktop-width) {
+
+@media (min-width: $desktop-width) {
   .form-wrapper {
     display: flex;
     justify-content: space-between;
