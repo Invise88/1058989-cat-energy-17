@@ -18,3 +18,9 @@
   line-height: 20px;
   font-family: "Oswald", "Arial", sans-serif;
 }
+
+@media (min-width: $tablet-width) {
+  .more {
+    padding-top: 150px;
+  }
+}

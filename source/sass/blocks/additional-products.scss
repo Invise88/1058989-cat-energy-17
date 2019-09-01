@@ -4,10 +4,22 @@
 }
 
 .additional-products__title {
+  position: relative;
   color: $title-color;
   font-size: 24px;
   line-height: 24px;
   font-family: "Oswald", "Arial", sans-serif;
+  display: flex;
+
+  &::after {
+    content: "";
+    flex-grow: 1;
+    min-width: 20px;
+    height: 3px;
+    margin-left: 22px;
+    margin-top: 14px;
+    background-color: #68b738;
+  }
 }
 
 .additional-products__item {
@@ -48,5 +60,22 @@
     width: 56px;
     height: 61px;
     display: block;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .additional-products__banner {
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .additional-products {
+    display: flex;
+  }
+
+  .additional-products__banner {
+    width: 245px;
   }
 }

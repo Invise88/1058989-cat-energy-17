@@ -53,3 +53,45 @@
 .categories__button {
   font-family: "Oswald", "Arial", sans-serif;
 }
+
+@media (min-width: $tablet-width) {
+  .categories__item {
+    position: relative;
+    width: 708px;
+  }
+
+  .categories__descr {
+    width: 371px;
+  }
+
+  .categories__title {
+    &::after,
+    &::before {
+      position: absolute;
+      left: 446px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .categories {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .categories__item {
+    position: relative;
+    width: 570px;
+  }
+
+  .categories__descr {
+    width: 462px;
+  }
+
+  .categories__title {
+    &::after,
+    &::before {
+      position: absolute;
+    }
+  }
+}

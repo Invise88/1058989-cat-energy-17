@@ -1,3 +1,16 @@
 .page-footer {
   background-color: $background-grey;
+  text-align: center;
+}
+
+.page-footer__copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }

@@ -23,3 +23,55 @@
   line-height: 14px;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .promo {
+    background-image: none;
+    background-color: #ffffff;
+  }
+
+  .promo__title {
+    color: $title-color;
+    width: 415px;
+    margin: 0 0 41px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+  }
+
+  .promo__slogan {
+    color: $title-color;
+    margin: 0 0 44px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .promo__image {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    position: relative;
+    z-index: -2;
+    padding: 104px 40px 190px 117px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -89px;
+      right: 0;
+      width: 50%;
+      z-index: -1;
+      height: 696px;
+      background-color: #63a73a;
+      background-image: url("../img/index-background-desktop@1x.jpg");
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: cover;
+    }
+  }
+}

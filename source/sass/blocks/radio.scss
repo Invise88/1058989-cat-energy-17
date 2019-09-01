@@ -1,5 +1,25 @@
+.radio {
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
 .radio__label {
   color: #222222;
   font-size: 16px;
   line-height: 18px;
+  padding-left: 46px;
+}
+
+@media (min-width: $tablet-width) {
+  .radio__label {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .radio__label {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }

@@ -1,5 +1,10 @@
 .catalog__item {
   list-style: none;
+  border-top: 1px solid #ededed;
+
+  &-wrapper {
+    display: flex;
+  }
 }
 
 .catalog__item-link {
@@ -10,12 +15,21 @@
 .catalog__item-title {
   color: $title-color;
   font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-right: 10px;
 }
 
 .catalog__item-info {
   color: $grey-color;
   font-size: 12px;
   line-height: 16px;
+}
+
+.catalog__item-inner {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .catalog__item-info th {
@@ -25,4 +39,27 @@
 .catalog__item-button {
   text-decoration: none;
   font-family: "Oswald", "Arial", sans-serif;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .catalog__item {
+    border: none;
+    width: 324px;
+
+    &-wrapper {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog__item {
+    width: 245px;
+  }
 }
