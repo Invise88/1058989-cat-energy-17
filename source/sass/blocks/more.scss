@@ -1,14 +1,35 @@
+.more{
+  position: relative;
+  padding-top: 57px;
+  border-bottom: 1px solid #ededed;
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: 26px;
+    left: 145px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/icon-plus-mobile.svg");
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
 .more__title {
   color: $title-color;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;
   font-family: "Oswald", "Arial", sans-serif;
+  text-align: center;
 }
 
 .more__descr {
   color: $grey-color;
   font-size: 12px;
   line-height: 16px;
+  text-align: center;
 }
 
 .more__button {
@@ -17,6 +38,7 @@
   font-size: 16px;
   line-height: 20px;
   font-family: "Oswald", "Arial", sans-serif;
+  background-color: #f2f2f2;
 }
 
 @media (min-width: $tablet-width) {

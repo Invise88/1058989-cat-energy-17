@@ -1,3 +1,7 @@
+.advantages{
+  margin-bottom: 42px;
+}
+
 .advantages__items {
   list-style: none;
 }
@@ -5,10 +9,20 @@
 .advantages__item {
   color: $grey-color;
   margin-bottom: 32px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  margin-bottom: 20px;
+  padding-left: 44px;
 
   &::before {
     content: "";
     background-color: $green-color;
+    position: absolute;
+    left: -40px;
     width: 60px;
     height: 60px;
     display: block;
@@ -50,7 +64,8 @@
 
   .advantages__item {
     position: relative;
-    width: 364px;
+    width: 220px;
+
 
     &::after {
       counter-increment: section;

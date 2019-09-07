@@ -6,11 +6,19 @@
 .page-footer__copyright {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 20px;
 }
-
 @media (min-width: $tablet-width) {
-  .page-footer {
+  .page-footer__logo {
+    margin: 0;
+  }
+
+  .page-footer__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 30px 55px;
   }
 }

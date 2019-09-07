@@ -4,19 +4,35 @@
 }
 
 .radio__label {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    -webkit-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+    will-change: transform;
+  }
+
+  &::after {
+    content: "";
+    left: 9px;
+    width: 12px;
+    height: 12px;
+    background-color: #68b738;
+    opacity: 0;
+  }
   color: #222222;
   font-size: 16px;
   line-height: 18px;
   padding-left: 46px;
 }
-
 @media (min-width: $tablet-width) {
   .radio__label {
     font-size: 20px;
     line-height: 20px;
   }
 }
-
 @media (min-width: $desktop-width) {
   .radio__label {
     font-size: 20px;

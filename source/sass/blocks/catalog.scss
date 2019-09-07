@@ -1,6 +1,7 @@
 .catalog__item {
   list-style: none;
   border-top: 1px solid #ededed;
+  padding-bottom: 25px;
 
   &-wrapper {
     display: flex;
@@ -16,8 +17,10 @@
   color: $title-color;
   font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: 400;
-  padding-right: 10px;
+  padding-right: 88px;
 }
 
 .catalog__item-info {
@@ -39,6 +42,11 @@
 .catalog__item-button {
   text-decoration: none;
   font-family: "Oswald", "Arial", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 280px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 @media (min-width: $tablet-width) {
